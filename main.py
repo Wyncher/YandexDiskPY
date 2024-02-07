@@ -10,7 +10,7 @@ from yadisk import yadisk
 
 app = QtWidgets.QApplication(sys.argv)
 MainWindow = QtWidgets.QMainWindow()
-y = yadisk.YaDisk(token="y0_AgAAAAAhOxxQAAomrwAAAADnOOrujNIdOdyaQCm-DvK373lUkofMQRE")
+y = yadisk.YaDisk(token="")
 y.check_token()
 
 
